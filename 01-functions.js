@@ -5,6 +5,19 @@
  * - Повернення значення
  */
 
+const add = function (a,b){
+    console.log(a);
+    console.log(b);
+    const result = a + b;
+    console.log("Виконуеться функція");
+    return result;
+};
+
+const r1 = add(2,3);
+console.log("r1", r1);
+
+ 
+
 /*
 - Стек викликів
 - Stack trace і пошук помилок
@@ -35,3 +48,5 @@
 // console.log("Лог перед викликом функції C");
 // fnC();
 // console.log("Лог після викликом функції C");
+
+
