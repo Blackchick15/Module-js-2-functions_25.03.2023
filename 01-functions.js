@@ -10,28 +10,28 @@
 - Stack trace і пошук помилок
  */
 
-const fnA = function () {
-  console.log("Виконується функція A");
-};
+// const fnA = function () {
+//   console.log("Виконується функція A");
+// };
 
-const fnB = function () {
-  console.log("Виконується функція B");
-};
+// const fnB = function () {
+//   console.log("Виконується функція B");
+// };
 
-const fnC = function () {
-  console.log("Виконується функція C");
-};
+// const fnC = function () {
+//   console.log("Виконується функція C");
+// };
 
 // console.log("Лог перед викликом функції A");
 
-fnA();
+// fnA();
 
 // console.log("Лог після викликом функції A");
 
 // console.log("Лог перед викликом функції B");
-fnB();
+// fnB();
 // console.log("Лог після викликом функції B");
 
 // console.log("Лог перед викликом функції C");
-fnC();
+// fnC();
 // console.log("Лог після викликом функції C");
